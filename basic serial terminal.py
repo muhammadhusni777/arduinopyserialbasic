@@ -5,19 +5,14 @@ RUN USE THONNY IDE AND PYTHON 3.9.0
 I HOPE THIS HELP YOU FOR MAKING TKINTER INTERFACE FOR ARDUINO
 '''
 
-
 import serial
 import serial.tools.list_ports
 import time
 import tkinter as tk
 from tkinter import *
 
-
 ser = serial.Serial()
-
 ser.baudrate = 9600
-
-
 
 def connect():
     ser.port = port_select.get()
